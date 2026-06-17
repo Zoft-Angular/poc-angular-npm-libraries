@@ -1,10 +1,9 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { TitleCasePipe } from 'directives';
+import { TextCasePipe } from '../../../directives/src/lib/text-case-pipe';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, TitleCasePipe],
+  imports: [TextCasePipe],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })

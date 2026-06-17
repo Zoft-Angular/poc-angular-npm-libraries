@@ -1,6 +1,3 @@
-/*
- * Public API Surface of directives
- */
+/* Public API Surface of directives */
 
-export * from './lib/directives';
-export * from './lib/title-case-pipe';
+export * from './lib/text-case-pipe';
